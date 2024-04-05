@@ -29,7 +29,7 @@ git init # To create a local Git empty repository on the current working directo
 
 git status # provides the status of your local repository. This will display all untracked and tracked files.
 
-git add <file name>  # Add files into your staging area. This enables git to start tracking chnages to the files
+git add <file name>  # Add files into your staging area. This enables git to start tracking chnages to the files. Here we added .gitignore. Here i put secret.txt. So if i create a secret.txt, git wont track
 
 git add --all or git add . # To add all files in current directory
 
